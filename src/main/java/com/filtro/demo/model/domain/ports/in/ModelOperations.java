@@ -10,5 +10,5 @@ public interface ModelOperations {
     Optional<Model> updateModel(Model model);
     Optional<Model> getModelById(Integer id);
     List<Model> getAllModels();
-    boolean deleteModelById();
+    boolean deleteModelById(Integer id);
 }
